@@ -1,0 +1,174 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #DDEFC6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.logout-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 12px;
+    padding: 5px 10px;
+}
+
+.Container {
+    background-color: #333333a1;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Logo {
+    width: 150px;
+    margin-bottom: 30px;
+    border-radius: 100%;
+}
+
+h2 {
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    font-size: 18px;
+}
+
+button {
+    display: contents;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff5722;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    border-color: black solid 1px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #ddd;
+}
+
+.tabla-container {
+    width: 1030px;
+    height: 600px;
+
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s ease;
+}
+
+.Encabezado {
+    background-color: #00cc5c;
+    font-weight: bold;
+}
+
+tr:hover {
+    background-color: #f7c69f;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Kaushan+Script&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin-top: 20px;
+    font-family: 'Kalam', sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s ease;
+}
+
+.Encabezado {
+    background-color: #00cc5c;
+    font-weight: bold;
+}
+
+tr:hover {
+    background-color: #f7c69f;
+}
+
+.Container-img {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.img-error {
+    width: 400px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.img-error:hover {
+    transform: scale(1.1);
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff5722;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 18px;
+}
+
+
+button:hover {
+    background-color: #bd0000;
+}
+
+.logout-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 12px;
+    padding: 5px 10px;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Formulario</title>
+  <link rel="stylesheet" href="../static/css/Formulario.css" />
+</head>
+
+<body>
+  <div class="Container">
+    <form action="/logout" method="post" class="logout">
+      <button type="submit">Cerrar sesión</button>
+    </form>
+    <form action="/Lista" method="post">
+      <h2>Buscar por:</h2>
+      <select name="opcion">
+        <option value="nombre">Nombre</option>
+        <option value="correo">Correo</option>
+      </select>
+      <input type="text" required placeholder="Nombre o Correo" name="patron" />
+      <button type="submit">Buscar</button>
+    </form>
+  </div>
+  <div>
+    <h2> . </h2>
+  </div>
+  <div class="tabla-container">
+    {% if resultados %}
+    <table>
+      <tr class="Encabezado">
+        <th>Clave cliente</th>
+        <th>Nombre</th>
+        <th>Correo</th>
+        <th>Telefono contacto</th>
+      </tr>
+      {% for resultado in resultados %}
+      <tr>
+        <td>{{ resultado.Clave }}</td>
+        <td>{{ resultado.Nombre }}</td>
+        <td>{{ resultado.Correo }}</td>
+        <td>{{ resultado.Telefono }}</td>
+      </tr>
+      {% endfor %}
+    </table>
+    {% endif %}
+  </div>
+</body>
+
+</html>
